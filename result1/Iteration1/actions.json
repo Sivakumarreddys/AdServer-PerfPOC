@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Image_1G_2Ads",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Image_1G_2Ads",
+                "infFile": "t1.inf",
+                "time": 1628611871812
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "sas-dru-1g",
+                "rawStartTime": 1628611871033,
+                "rawEndTime": 1628611871814,
+                "thinkTime": 0.0,
+                "wastedTime": 0.16075825691223145
+            }
+        ]
+    }
+]

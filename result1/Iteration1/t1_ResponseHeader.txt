@@ -1,0 +1,8 @@
+HTTP/1.1 200 
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Content-Type: text/xml;charset=utf-8
+Content-Length: 2466
+Date: Tue, 10 Aug 2021 16:11:11 GMT
+Connection: close
+

@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/xml
+StepName=Custom Request: Image_1G_2Ads
+Total=1
+FileName1=t1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Image_1G_2Ads
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1628611871035
+URL1=http://Adserver-ESBPERF.tvlport.com:31510/services/AdData

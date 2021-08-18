@@ -1,0 +1,71 @@
+Virtual User Script started at: 8/10/2021 4:11:10 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 2016; build 430 (Jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\svcldrn\AppData\Local\Temp\3\acm4zqbp.0jp\sas-dru-1g\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(8): web_cache_cleanup started  	[MsgId: MMSG-26355]
+vuser_init.c(8): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+vuser_init.c(9): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(9): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
+Starting action Image_1G_2Ads.
+Image_1G_2Ads.c(24): web_disable_keep_alive started  	[MsgId: MMSG-26355]
+Image_1G_2Ads.c(24): web_disable_keep_alive was successful  	[MsgId: MMSG-26392]
+Image_1G_2Ads.c(26): web_reg_find started  	[MsgId: MMSG-26355]
+Image_1G_2Ads.c(26): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Image_1G_2Ads.c(28): Notify: Transaction "sas-dru-1g" started.
+Image_1G_2Ads.c(30): web_custom_request("Image_1G_2Ads") started  	[MsgId: MMSG-26355]
+Image_1G_2Ads.c(30): Notify: Parameter Substitution: parameter "Tile" =  "2109085072"
+Image_1G_2Ads.c(30): Notify: Parameter Substitution: parameter "Tile" =  "2109085072"
+Image_1G_2Ads.c(30): t=5056ms: 221-byte response headers for "http://Adserver-ESBPERF.tvlport.com:31510/services/AdData" (RelFrameId=1, Internal ID=1)
+Image_1G_2Ads.c(30):     HTTP/1.1 200 \r\n
+Image_1G_2Ads.c(30):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Image_1G_2Ads.c(30):     SOAPAction: ""\r\n
+Image_1G_2Ads.c(30):     Content-Type: text/xml;charset=utf-8\r\n
+Image_1G_2Ads.c(30):     Content-Length: 2466\r\n
+Image_1G_2Ads.c(30):     Date: Tue, 10 Aug 2021 16:11:11 GMT\r\n
+Image_1G_2Ads.c(30):     Connection: close\r\n
+Image_1G_2Ads.c(30):     \r\n
+Image_1G_2Ads.c(30): t=5067ms: 2466-byte response body for "http://Adserver-ESBPERF.tvlport.com:31510/services/AdData" (RelFrameId=1, Internal ID=1)
+Image_1G_2Ads.c(30):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header xml
+Image_1G_2Ads.c(30):     ns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/><soap:Body><AdTransactResponse xm
+Image_1G_2Ads.c(30):     lns="http://adserver.ad.travelport.com/AdService/"><errorCode>0</errorCode><AdServiceReq><
+Image_1G_2Ads.c(30):     REQUESTTYPE>I</REQUESTTYPE><USERID>Tesing-muleapi123</USERID><ADSIZE>180x150</ADSIZE><AdDa
+Image_1G_2Ads.c(30):     taInfo><POSIATA/><POSLNIATA>00000000Z</POSLNIATA><PROMODATE>2021-11-02</PROMODATE><ORGSYST
+Image_1G_2Ads.c(30):     EM>GALILEO</ORGSYSTEM><PLATFORM>NG</PLATFORM><POSPCC>1H1U</POSPCC><ORGCITY>BNA</ORGCITY><D
+Image_1G_2Ads.c(30):     ESCITY>BNA</DESCITY><TILE>2109085072</TILE></AdDataInfo></AdServiceReq><AdServiceRsp><Imag
+Image_1G_2Ads.c(30):     eData><Image>R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==</Image><ADNAME>1
+Image_1G_2Ads.c(30):     07-house-NFD</ADNAME><AdResponseData><CLICKURL>https://tportdev-ia.aimatch.com/tportdev/ad
+Image_1G_2Ads.c(30):     click/FCID=107/site=Headlines/area=Graphical-Teaser/POSLNIATA=00000000Z/POSIATA=/POSPCC=1H
+Image_1G_2Ads.c(30):     1U/POSCITY=ATL/POSCOUNTRY=US/POSDATE=/TIME=0931/SYSDATE=20210712/SYSTIME=0931/VENDORTYPE=A
+Image_1G_2Ads.c(30):     /TRANSTYPE=A/PROMODATE=20211102/PROMOMONTH=11/PROMODAY=TUE/ORGCITY=BNA/DESCITY=BNA/VENDOR=
+Image_1G_2Ads.c(30):     /CLASSOFSERVICE=/ORGSYSTEM=1G1V/POSSTATEPROV=WA/PLATFORM=NG/DEPCIPICKDATE=20211102/RETCODR
+Image_1G_2Ads.c(30):     OPDATE=20211103/ADSIZE=180x150/ADNAME=/vid=-1H1U--00000000Z/VIEWID=2109085072/RANDOM=21090
+Image_1G_2Ads.c(30):     85072/RAC=/RC=/position=1/relocate=https://tportdev-ia.aimatch.com/tportdev/tserver/ORGCIT
+Image_1G_2Ads.c(30):     Y=BNA/DESCITY=BNA/DEPCIPICKDATE=20211102/RETCODROPDATE=20211103/clickedOn=GT/POSCLIENT=/PO
+Image_1G_2Ads.c(30):     SVERSION=/FCID=0</CLICKURL></AdResponseData></ImageData><ImageData><Image>R0lGODlhAQABAIAA
+Image_1G_2Ads.c(30):     AP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==</Image><ADNAME>107-house-NFD</ADNAME><AdRespo
+Image_1G_2Ads.c(30):     nseData><CLICKURL>https://tportdev-ia.aimatch.com/tportdev/adclick/FCID=107/site=Headlines
+Image_1G_2Ads.c(30):     /area=Graphical-Teaser/POSLNIATA=00000000Z/POSIATA=/POSPCC=1H1U/POSCITY=ATL/POSCOUNTRY=US/
+Image_1G_2Ads.c(30):     POSDATE=/TIME=0931/SYSDATE=20210712/SYSTIME=0931/VENDORTYPE=A/TRANSTYPE=A/PROMODATE=202111
+Image_1G_2Ads.c(30):     02/PROMOMONTH=11/PROMODAY=TUE/ORGCITY=BNA/DESCITY=BNA/VENDOR=/CLASSOFSERVICE=/ORGSYSTEM=1G
+Image_1G_2Ads.c(30):     1V/POSSTATEPROV=WA/PLATFORM=NG/DEPCIPICKDATE=20211102/RETCODROPDATE=20211103/ADSIZE=180x15
+Image_1G_2Ads.c(30):     0/ADNAME=/vid=-1H1U--00000000Z/VIEWID=2109085072/RANDOM=2109085072/RAC=/RC=/position=2/rel
+Image_1G_2Ads.c(30):     ocate=https://tportdev-ia.aimatch.com/tportdev/tserver/ORGCITY=BNA/DESCITY=BNA/DEPCIPICKDA
+Image_1G_2Ads.c(30):     TE=20211102/RETCODROPDATE=20211103/clickedOn=GT/POSCLIENT=/POSVERSION=/FCID=0</CLICKURL></
+Image_1G_2Ads.c(30):     AdResponseData></ImageData></AdServiceRsp><trackingId>2109085072</trackingId></AdTransactR
+Image_1G_2Ads.c(30):     esponse></soap:Body></soap:Envelope>
+Image_1G_2Ads.c(30): Registered web_reg_find successful for "Text=<errorCode>0</errorCode>" (count=1)  	[MsgId: MMSG-26364]
+Image_1G_2Ads.c(30): web_custom_request("Image_1G_2Ads") was successful, 2466 body bytes, 221 header bytes  	[MsgId: MMSG-26386]
+Image_1G_2Ads.c(95): Notify: Transaction "sas-dru-1g" ended with a "Pass" status (Duration: 0.7809 Wasted Time: 0.1608).
+Ending action Image_1G_2Ads.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
